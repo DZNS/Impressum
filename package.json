@@ -1,0 +1,29 @@
+{
+  "name": "impressum",
+  "version": "0.0.1",
+  "description": "A static site generator and dashboard powered by your terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "generator",
+    "cli",
+    "dashboard",
+    "website",
+    "simple",
+    "extensible"
+  ],
+  "author": "Nikhil Nigade",
+  "license": "MIT",
+  "bin": {
+    "snippet": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "marked": "^0.3.5"
+  }
+}
